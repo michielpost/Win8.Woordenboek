@@ -1,0 +1,24 @@
+﻿<UserControl
+    x:Class="Woordenboek.UserControls.Logo"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Woordenboek.UserControls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="800"
+    d:DesignWidth="900">
+    
+    <Grid Background="Red">
+
+        <Grid Background="Black" Height="756" Width="558">
+            <Image Source="/Assets/background.png" Stretch="None" HorizontalAlignment="Left" Margin="0,0,0,0" />
+            <TextBlock  FontSize="210" Margin="0,200,0,0" FontFamily="/Fonts/KAISG.TTF#KaiserzeitGotisch" HorizontalAlignment="Center">W</TextBlock>
+            <Border Background="#009966" VerticalAlignment="Bottom" Height="90" Margin="0,0,0,110">
+                <TextBlock HorizontalAlignment="Center" Foreground="Black"  FontSize="100" Margin="0,0,0,0" FontWeight="Bold"
+                        FontFamily="/Fonts/Platelet.ttf#Platelet">WOORDENBOEK</TextBlock>
+            </Border>
+        </Grid>
+
+    </Grid>
+</UserControl>
